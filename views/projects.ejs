@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Projects</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>List of projects</h1>
+    <% data.forEach((project) => { %>
+        <div class="project-box">
+            <p>Project Name: <%= project.name %></p>
+        </div>
+    <% }) %>
+  </body>
+</html>
